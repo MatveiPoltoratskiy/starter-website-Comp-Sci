@@ -1,31 +1,44 @@
 
 body {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
-    background: #e0ffe0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4a261; /* basketball orange */
+    color: #264653;       /* dark blue text */
+    margin: 0;
 }
 
-.p1 {
-    color: darkgreen;
+img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    margin: 20px 0;
 }
 
-.p2 {
-    color: darkblue;
-    text-decoration: underline;
+button {
+    background-color: #e76f51; /* red-orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
-.p3 {
-    color: purple;
-    font-style: italic;
+button:hover {
+    background-color: #f4a261; /* hover effect */
+}
+
+a {
+    color: #264653;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
-    color: red;
-    font-size: 18px;
+    color: #e76f51;
 }
 
 footer {
-    margin-top: 40px;
+    background-color: #264653;
+    color: white;
     padding: 15px;
-    background: #c0ffc0;
 }
